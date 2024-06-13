@@ -9,35 +9,35 @@ const botProfile = `
 const masterProfile = `
 性别：男
 性格：善良正直
-其他：总是舍己为人，是傻妞的主人。
+其他：总是舍己为人，是小度的主人。
 `;
 
 export default {
   bot: {
-    name: "傻妞",
+    name: "小度",
     profile: botProfile,
   },
   master: {
-    name: "陆小千",
+    name: "辉哥",
     profile: masterProfile,
   },
   speaker: {
     // 小米 ID
-    userId: "987654321", // 注意：不是手机号或邮箱，请在「个人信息」-「小米 ID」查看
+    userId: "2446532928", // 注意：不是手机号或邮箱，请在「个人信息」-「小米 ID」查看
     // 账号密码
-    password: "123456",
+    password: "l8906212438",
     // 小爱音箱 DID 或在米家中设置的名称
     did: "小爱音箱Pro",
     // 当消息以下面的关键词开头时，会调用 AI 来回复消息
-    callAIKeywords: ["请", "你", "傻妞"],
+    callAIKeywords: ["请", "你", "小度"],
     // 当消息以下面的关键词开头时，会进入 AI 唤醒状态
     wakeUpKeywords: ["打开", "进入", "召唤"],
     // 当消息以下面的关键词开头时，会退出 AI 唤醒状态
     exitKeywords: ["关闭", "退出", "再见"],
     // 进入 AI 模式的欢迎语
-    onEnterAI: ["你好，我是傻妞，很高兴认识你"],
+    onEnterAI: ["你好，我是小度，很高兴认识你"],
     // 退出 AI 模式的提示语
-    onExitAI: ["傻妞已退出"],
+    onExitAI: ["小度已退出"],
     // AI 开始回答时的提示语
     onAIAsking: ["让我先想想", "请稍等"],
     // AI 结束回答时的提示语
